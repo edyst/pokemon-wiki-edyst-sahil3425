@@ -369,9 +369,12 @@ margin-bottom: 25px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
 }
 .pokemon_game .games_flex .game_flex_child{
   width: 20vw;
+  min-width: 300px;
 }
 .pokemon_game   .seeMore{
   margin-top: 20px;
@@ -478,6 +481,4 @@ footer section a{
   
   
 }
-
-
 
